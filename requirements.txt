@@ -1,6 +1,0 @@
-streamlit 
-pandas 
-matplotlib.pyplot
-numpy 
-streamlit_option_menu 
-streamlit_extras.metric_cards 
