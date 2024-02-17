@@ -1,9 +1,7 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
 from streamlit_option_menu import option_menu
 import plotly.express as px
-import matplotlib.pyplot as plt
 from streamlit_extras.metric_cards import style_metric_cards
 @st.cache_data
 
