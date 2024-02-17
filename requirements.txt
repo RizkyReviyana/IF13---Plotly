@@ -2,4 +2,4 @@ streamlit
 pandas
 streamlit-option-menu
 plotly-express
-streamlit-extras.metric-cards
+streamlit-extras
