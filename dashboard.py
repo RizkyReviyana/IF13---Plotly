@@ -40,7 +40,7 @@ def average_customer_per_city(df_customer_dataset):
     return avg_sellers
 
 def graphs_cutomer(df_customer_dataset):
-    # Menghitung jumlah penjual per kota
+    # Menghitung jumlah  per kota
     seller_count_per_city = df_customer_dataset.groupby('customer_city').size().reset_index(name='jumlah_pelanggan')
 
     # Mengambil 10 kota teratas
@@ -96,7 +96,7 @@ def Customer_dashboard(df_customer_dataset):
     with dash_3:
         graphs_cutomer(df_customer_dataset)
 
-        with st.expander("Penjelasan Review Order") :
+        with st.expander("Penjelasan diagram") :
             st.write('Jika melihat pada diagram diatas, kita bisa melihat bawa sao paulo mendapati urutan pertama dengan jumlah total pembeli sebesar 15,540 pembeli, dengan melihat data tersebut bisa kita simpulkan bahwa peminat pengguna E-Commerce mendominasi pada wilayah Sao Paulo. Namun, kita juga bisa melihat masih banyak juga pembeli dari masing-masing kota yang dapat kita perkirakan bahwa tidak dapat dipungkiri pula untuk kota lain akan bertambah secara bertahap seiring berjalannya waktu.')
 
         with st.expander("Kesimpulan") :
